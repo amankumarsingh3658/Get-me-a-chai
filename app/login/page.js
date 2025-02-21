@@ -5,7 +5,7 @@ const Login = () => {
   const {data: session} = useSession()
   const router = useRouter()
   if(session){
-    return router.push('/dashboard')
+    return router.push('/Dashboard')
   }
   return (
     <div className='text-white py-14 container mx-auto'>
